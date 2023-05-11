@@ -43,18 +43,18 @@ class InsureeForm extends Component {
     insuree.jsonExt = {};
     
     // eCVRS fields from backend
-    insuree.place_of_birth = "";
-    insuree.registration_date = "";
-    insuree.residential_alley = "";
+    insuree.placeOfBirth = "";
+    insuree.registrationDate = "";
+    insuree.residentialAlley = "";
     insuree.is_local = "";
-    insuree.usual_residence = "";
+    insuree.usualResidence = "";
     insuree.occupation = "";
-    insuree.father_name = "";
-    insuree.mother_name = "";
-    insuree.residential_village = "";
-    insuree.residential_district = "";
-    insuree.residential_province = "";
-    insuree.residential_house_number = "";
+    insuree.fatherName = "";
+    insuree.motherName = "";
+    insuree.residentialVillage = "";
+    insuree.residentialDistrict = "";
+    insuree.residentialProvince = "";
+    insuree.residentialHouseNumber = "";
     return insuree;
   }
 
