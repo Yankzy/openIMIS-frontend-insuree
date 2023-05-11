@@ -41,6 +41,20 @@ class InsureeForm extends Component {
   _newInsuree() {
     let insuree = {};
     insuree.jsonExt = {};
+    
+    // eCVRS fields from backend
+    insuree.place_of_birth = "";
+    insuree.registration_date = "";
+    insuree.residential_alley = "";
+    insuree.is_local = "";
+    insuree.usual_residence = "";
+    insuree.occupation = "";
+    insuree.father_name = "";
+    insuree.mother_name = "";
+    insuree.residential_village = "";
+    insuree.residential_district = "";
+    insuree.residential_province = "";
+    insuree.residential_house_number = "";
     return insuree;
   }
 
