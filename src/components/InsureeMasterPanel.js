@@ -227,6 +227,87 @@ class InsureeMasterPanel extends FormPanel {
                       onChange={(v) => this.updateAttribute("passport", !!v ? v : null)}
                     />
                   </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Is  Local"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.isLocal : ""}
+                      onChange={(v) => this.updateAttribute("isLocal", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="mother Name"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.motherName : ""}
+                      onChange={(v) => this.updateAttribute("motherName", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Father Name"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.fatherName : ""}
+                      onChange={(v) => this.updateAttribute("fatherName", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Residential Village"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.residentialVillage : ""}
+                      onChange={(v) => this.updateAttribute("residentialVillage", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Residential District"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.residentialDistrict : ""}
+                      onChange={(v) => this.updateAttribute("residentialDistrict", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Usual Residence"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.usualResidence : ""}
+                      onChange={(v) => this.updateAttribute("usualResidence", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Place Of Birth"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.placeOfBirth : ""}
+                      onChange={(v) => this.updateAttribute("placeOfBirth", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Pegistration Date"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.registrationDate : ""}
+                      onChange={(v) => this.updateAttribute("registrationDate", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Residential Alley"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.residentialAlley : ""}
+                      onChange={(v) => this.updateAttribute("residentialAlley", !!v ? v : null)}
+                    />
+                  </Grid>
                 </Grid>
               </Grid>
               <Grid item xs={4} className={classes.item}>
