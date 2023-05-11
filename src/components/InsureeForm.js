@@ -46,7 +46,7 @@ class InsureeForm extends Component {
     insuree.placeOfBirth = "";
     insuree.registrationDate = "";
     insuree.residentialAlley = "";
-    insuree.is_local = "";
+    insuree.isLocal = "";
     insuree.usualResidence = "";
     insuree.occupation = "";
     insuree.fatherName = "";

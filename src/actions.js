@@ -30,6 +30,20 @@ const FAMILY_FULL_PROJECTION = (mm) => [
 export const FAMILY_PICKER_PROJECTION = ["id", "uuid", "headInsuree{id chfId uuid lastName otherNames}"];
 
 const INSUREE_FULL_PROJECTION = (mm) => [
+  // eCVRS fields
+  "placeOfBirth",
+  "registrationDate",
+  "residentialAlley",
+  "isLocal",
+  "usualResidence",
+  "occupation",
+  "fatherName",
+  "motherName",
+  "residentialVillage",
+  "residentialDistrict",
+  "residentialProvince",
+  "residentialHouseNumber",
+  // end eCVRS fields
   "id",
   "uuid",
   "chfId",
