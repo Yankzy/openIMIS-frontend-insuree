@@ -275,6 +275,24 @@ class InsureeMasterPanel extends FormPanel {
                   <Grid item xs={3} className={classes.item}>
                     <TextInput
                       module="insuree"
+                      label="Residential Province"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.residentialProvince : ""}
+                      onChange={(v) => this.updateAttribute("residentialProvince", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
+                      label="Residential House Number"
+                      readOnly={readOnly}
+                      value={!!edited && !!edited.isLocal ? edited.residentialHouseNumber : ""}
+                      onChange={(v) => this.updateAttribute("residentialHouseNumber", !!v ? v : null)}
+                    />
+                  </Grid>
+                  <Grid item xs={3} className={classes.item}>
+                    <TextInput
+                      module="insuree"
                       label="Usual Residence"
                       readOnly={readOnly}
                       value={!!edited && !!edited.isLocal ? edited.usualResidence : ""}
